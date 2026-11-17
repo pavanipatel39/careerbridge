@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CareerBridge - Your Career GPS & Micro-Internship Hub</title>
+  <meta name="description" content="Navigate your career path with guided roadmaps, hands-on micro-internships, and real-world verified experience.">
+  <link rel="icon" type="image/svg+xml" href="assets/icons/logo.svg">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation Header -->
+  <header class="site-header">
+    <div class="nav-container">
+      <a href="index.html" class="brand-logo" aria-label="CareerBridge Home">
+        <img src="assets/icons/logo-white.svg" alt="CareerBridge Logo">
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="careers.html" class="nav-link">Explore Careers</a></li>
+          <li><a href="internships.html" class="nav-link">Micro-Internships</a></li>
+          <li><a href="#about" class="nav-link">About Us</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <a href="login.html" class="btn btn-ghost btn-sm">Log In</a>
+        <a href="signup.html" class="btn btn-primary-blue btn-sm">Sign Up</a>
+        <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu"><svg class="ui-i" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="hero-card">
+        <div class="hero-content">
+          <div class="hero-pill">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            Over 10,000+ Students Building Proof of Work
+          </div>
+          <h1 class="hero-title">Your Career GPS & Micro-Internship Hub</h1>
+          <p class="hero-subtitle">
+            Navigate your career path with guided step-by-step roadmaps, hands-on company micro-internships, and verified real-world proof of work.
+          </p>
+          <div class="hero-cta-group">
+            <a href="signup.html" class="btn btn-primary-orange">Get Started Free</a>
+            <a href="careers.html" class="btn btn-outline-white">Explore Careers</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img src="assets/images/hero-student.png" alt="Modern Interactive Student Dashboard Preview">
+        </div>
+      </div>
+    </section>
+
+    <!-- Metrics Strip -->
+    <section class="stats-strip" aria-label="CareerBridge Metrics">
+      <div class="stat-card">
+        <div class="stat-icon stat-icon-blue">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+          </svg>
+        </div>
+        <div>
+          <div class="stat-number">100+</div>
+          <div class="stat-label">Guided Career Paths & Roadmaps</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon stat-icon-orange">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+          </svg>
+        </div>
+        <div>
+          <div class="stat-number">500+</div>
+          <div class="stat-label">Hands-On Micro-Internships</div>
+        </div>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-icon stat-icon-purple">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+            <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+          </svg>
+        </div>
+        <div>
+          <div class="stat-number">10,000+</div>
+          <div class="stat-label">Active Ambitious Students</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Explore Career Paths Section -->
+    <section class="content-section" id="careers">
+      <div class="section-header">
+        <div class="section-tag">GUIDED ROADMAPS</div>
+        <h2 class="section-title">Explore Career Paths</h2>
+        <p class="section-subtitle">
+          Choose a role that fits your ambitions. Follow curated milestones with real-world deliverables.
+        </p>
+      </div>
+
+      <div class="cards-grid-3">
+        <!-- Path 1: Software Engineering -->
+        <div class="career-card">
+          <div class="card-cover"><img src="assets/images/career-fullstack.png" alt="" loading="lazy"></div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
+            <h3 class="career-card-title">Software Engineering</h3>
+            <span class="badge badge-blue">Intermediate</span>
+          </div>
+          <p class="career-card-desc">
+            Master modern frontend, scalable backends, database modeling, and production deployment through progressive projects.
+          </p>
+          <div class="tag-cloud">
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">PostgreSQL</span>
+          </div>
+          <a href="careers.html" class="btn btn-outline btn-sm" style="margin-top: auto;">Explore Path →</a>
+        </div>
+
+        <!-- Path 2: UI/UX Design -->
+        <div class="career-card">
+          <div class="card-cover"><img src="assets/images/career-uiux.png" alt="" loading="lazy"></div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
+            <h3 class="career-card-title">UI/UX & Product Design</h3>
+            <span class="badge badge-purple">All Levels</span>
+          </div>
+          <p class="career-card-desc">
+            Learn user research, wireframing, high-fidelity Figma prototyping, micro-interactions, and design systems.
+          </p>
+          <div class="tag-cloud">
+            <span class="tag">Figma</span>
+            <span class="tag">Design Systems</span>
+            <span class="tag">Wireframing</span>
+            <span class="tag">User Research</span>
+          </div>
+          <a href="careers.html" class="btn btn-outline btn-sm" style="margin-top: auto;">Explore Path →</a>
+        </div>
+
+        <!-- Path 3: Data Science & AI -->
+        <div class="career-card">
+          <div class="card-cover"><img src="assets/images/sprint-analytics.png" alt="" loading="lazy"></div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 6px;">
+            <h3 class="career-card-title">Data Science & AI</h3>
+            <span class="badge badge-green">Advanced</span>
+          </div>
+          <p class="career-card-desc">
+            Clean and analyze big datasets, build machine learning predictive models, and extract business intelligence.
+          </p>
+          <div class="tag-cloud">
+            <span class="tag">Python</span>
+            <span class="tag">SQL</span>
+            <span class="tag">Pandas</span>
+            <span class="tag">Machine Learning</span>
+          </div>
+          <a href="careers.html" class="btn btn-outline btn-sm" style="margin-top: auto;">Explore Path →</a>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 36px;">
+        <a href="careers.html" class="btn btn-primary-blue">View All 100+ Career Paths →</a>
+      </div>
+    </section>
+
+    <!-- Featured Micro-Internships Section -->
+    <section class="content-section" id="internships">
+      <div class="section-header">
+        <div class="section-tag">WORK EXPERIENCE</div>
+        <h2 class="section-title">Featured Micro-Internships</h2>
+        <p class="section-subtitle">
+          Bite-sized company projects designed for college schedules. Earn credentials, stipends, and mentor recommendations.
+        </p>
+      </div>
+
+      <div class="cards-grid-3">
+        <!-- Internship 1 -->
+        <div class="internship-card">
+          <div class="card-cover"><img src="assets/images/sprint-debug.png" alt="" loading="lazy"></div><div class="internship-header">
+            <div class="company-logo-wrap">
+              <img src="assets/images/company-fintech.svg" alt="FinTech Dynamics Logo">
+            </div>
+            <div class="company-info">
+              <h4>FinTech Dynamics</h4>
+              <div class="company-meta">
+                <span style="display: inline-flex; align-items: center; gap: 4px;">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  8 Hours
+                </span>
+                <span>•</span>
+                <span style="display: inline-flex; align-items: center; gap: 4px;">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  In 4 Days
+                </span>
+              </div>
+            </div>
+          </div>
+          <h3 class="internship-title">Frontend Metrics Dashboard Component</h3>
+          <p class="internship-desc">
+            Build responsive metrics cards and KPI sparkline visualizers using modern HTML, CSS, and Vanilla JavaScript.
+          </p>
+          <div class="tag-cloud">
+            <span class="tag">HTML/CSS</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Frontend</span>
+          </div>
+          <div class="internship-pills">
+            <div class="reward-info">
+              <span class="reward-amount">$150</span>
+              <span class="reward-duration">Verified Certificate</span>
+            </div>
+            <a href="internships.html" class="btn btn-primary-orange btn-sm">Apply Now</a>
+          </div>
+        </div>
+
+        <!-- Internship 2 -->
+        <div class="internship-card">
+          <div class="card-cover"><img src="assets/images/sprint-mobile.png" alt="" loading="lazy"></div><div class="internship-header">
+            <div class="company-logo-wrap">
+              <img src="assets/images/company-greenfuture.svg" alt="GreenFuture Studio Logo">
+            </div>
+            <div class="company-info">
+              <h4>GreenFuture Studio</h4>
+              <div class="company-meta">
+                <span style="display: inline-flex; align-items: center; gap: 4px;">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  6 Hours
+                </span>
+                <span>•</span>
+                <span style="display: inline-flex; align-items: center; gap: 4px;">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  In 5 Days
+                </span>
+              </div>
+            </div>
+          </div>
+          <h3 class="internship-title">Mobile App UX Onboarding Audit</h3>
+          <p class="internship-desc">
+            Audit current user onboarding flow for an eco-tracking application and provide 5 annotated Figma wireframes.
+          </p>
+          <div class="tag-cloud">
+            <span class="tag">UI/UX</span>
+            <span class="tag">Figma</span>
+            <span class="tag">Research</span>
+          </div>
+          <div class="internship-pills">
+            <div class="reward-info">
+              <span class="reward-amount">$120</span>
+              <span class="reward-duration">Verified Certificate</span>
+            </div>
+            <a href="internships.html" class="btn btn-primary-orange btn-sm">Apply Now</a>
+          </div>
+        </div>
+
+        <!-- Internship 3 -->
+        <div class="internship-card">
+          <div class="card-cover"><img src="assets/images/sprint-analytics.png" alt="" loading="lazy"></div><div class="internship-header">
+            <div class="company-logo-wrap">
+              <img src="assets/images/company-datacorp.svg" alt="DataCorp Analytics Logo">
+            </div>
+            <div class="company-info">
+              <h4>DataCorp Analytics</h4>
+              <div class="company-meta">
+                <span style="display: inline-flex; align-items: center; gap: 4px;">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                  10 Hours
+                </span>
+                <span>•</span>
+                <span style="display: inline-flex; align-items: center; gap: 4px;">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                  In 6 Days
+                </span>
+              </div>
+            </div>
+          </div>
+          <h3 class="internship-title">Customer Churn SQL Analysis</h3>
+          <p class="internship-desc">
+            Write SQL cohort retention queries on real subscription records and present actionable cancellation drivers.
+          </p>
+          <div class="tag-cloud">
+            <span class="tag">SQL</span>
+            <span class="tag">Analytics</span>
+            <span class="tag">Reporting</span>
+          </div>
+          <div class="internship-pills">
+            <div class="reward-info">
+              <span class="reward-amount">$200</span>
+              <span class="reward-duration">Verified Certificate</span>
+            </div>
+            <a href="internships.html" class="btn btn-primary-orange btn-sm">Apply Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 36px;">
+        <a href="internships.html" class="btn btn-primary-blue">Explore All 500+ Micro-Internships →</a>
+      </div>
+    </section>
+
+    <!-- Launch CTA Banner Section -->
+    <section class="content-section" id="about">
+      <div class="launch-cta-card">
+        <h2 class="launch-cta-title">Launch Your Career Journey with CareerBridge!</h2>
+        <p class="launch-cta-subtitle">
+          Join thousands of students turning textbook theory into verified proof of work. Completely free for students.
+        </p>
+        <a href="signup.html" class="btn btn-primary-orange" style="font-size: 1.05rem; padding: 14px 32px;">
+          Join Now - It's Free!
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" id="contact">
+    <div class="footer-container">
+      <div class="footer-col">
+        <div style="margin-bottom: 16px;">
+          <img src="assets/icons/logo.svg" alt="CareerBridge Logo" style="height: 38px;">
+        </div>
+        <p style="color: #94a3b8; font-size: 0.92rem; line-height: 1.6; max-width: 320px;">
+          The all-in-one career roadmap navigation and verified micro-internship platform for ambitious students and early talent.
+        </p>
+      </div>
+
+      <div class="footer-col">
+        <h5>Platform</h5>
+        <ul class="footer-links">
+          <li><a href="careers.html">Explore Career Paths</a></li>
+          <li><a href="internships.html">Available Micro-Internships</a></li>
+          <li><a href="dashboard.html">Student Portal</a></li>
+          <li><a href="signup.html">Employer Partnerships</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Resources</h5>
+        <ul class="footer-links">
+          <li><a href="#about">About CareerBridge</a></li>
+          <li><a href="dashboard.html">Roadmap Templates</a></li>
+          <li><a href="progress.html">Skill Verification Index</a></li>
+          <li><a href="#contact">Contact Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h5>Legal & Trust</h5>
+        <ul class="footer-links">
+          <li><a href="#privacy">Privacy Policy</a></li>
+          <li><a href="#terms">Terms of Service</a></li>
+          <li><a href="#security">Security & Credentials</a></li>
+          <li><a href="#status">System Status</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div>© 2026 CareerBridge Technologies, Inc. All rights reserved.</div>
+      <div style="display: flex; gap: 16px;">
+        <a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://twitter.com" target="_blank" rel="noopener">Twitter (X)</a>
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://discord.com" target="_blank" rel="noopener">Discord</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
